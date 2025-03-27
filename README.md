@@ -1,5 +1,5 @@
 # codingchallenge6
-THis is the coding challenge 6 repository
+This is the coding challenge 6 repository
 
-#links to the github flavoured markdown
+### links to the github flavoured markdown
 -[Github flavoured markdown](codingchallenge6/codingchallenge6.md)
