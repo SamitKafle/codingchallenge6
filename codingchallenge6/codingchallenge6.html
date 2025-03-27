@@ -376,40 +376,24 @@ efficient and less error-prone.</p>
 <p><strong>2. 2 pts. In your own words, describe how to write a function
 and a for loop in R and how they work. Give me specifics like syntax,
 where to write code, and how the results are returned.</strong></p>
-<div id="define-a-function-to-calculate-the-square-of-a-number" class="section level3">
-<h3>Define a function to calculate the square of a number</h3>
-<p>square &lt;- function(x) { result &lt;- x * x return(result) }</p>
-</div>
-<div id="call-the-function" class="section level3">
-<h3>Call the function</h3>
-<p>square(4) # Returns 16</p>
-<p>-square &lt;- function(x) { … }: This defines a function named square
-that takes one argument x. -result &lt;- x * x: This line calculates the
-square of x and stores it in result. -return(result): This returns the
-value of result.</p>
-</div>
-<div id="for-loops" class="section level3">
-<h3>for loops</h3>
-</div>
-<div id="define-a-vector" class="section level3">
-<h3>Define a vector</h3>
-<p>numbers &lt;- c(1, 2, 3, 4, 5)</p>
-</div>
-<div id="initialize-an-empty-vector-to-store-results" class="section level3">
-<h3>Initialize an empty vector to store results</h3>
-<p>squares &lt;- c()</p>
-</div>
-<div id="for-loop-to-calculate-the-square-of-each-number" class="section level3">
-<h3>For loop to calculate the square of each number</h3>
-<p>for (i in numbers) { squares &lt;- c(squares, i * i) }</p>
-</div>
-<div id="print-the-results" class="section level3">
-<h3>Print the results</h3>
-<p>print(squares) # Returns c(1, 4, 9, 16, 25)</p>
-<p>here, for (i in numbers) { … }: This defines a loop that iterates
-over each element in the numbers vector. -squares &lt;- c(squares, i *
-i): This line calculates the square of i and appends it to the squares
-vector.</p>
+<pre class="r"><code>#Define a function to calculate the square of a number*
+#square &lt;- function(x) {   This defines a function named square that takes one argument x
+#  result &lt;- x * x        This line calculates the square of x and stores it in result.
+#  return(result)          This returns the value of result
+#}
+
+# Call the function
+# square(4)  # Returns 16</code></pre>
+<pre class="r"><code>### For loop to calculate the square of each number
+### Initialize an empty vector to store results
+##squares &lt;- c()
+
+#for (i in numbers) {  This defines a loop that iterates over each element in the numbers                                     vector.
+#squares &lt;- c(squares, i * i)  This line calculates the square of i and appends it to the                                        squares vector.
+#}
+
+### Print the results
+##print(squares)  # Returns c(1, 4, 9, 16, 25)</code></pre>
 <p><strong>3. 2 pts. Read in the Cities.csv file from Canvas using a
 relative file path.</strong></p>
 <pre class="r"><code>datum=read.csv(&quot;Cities.csv&quot;)</code></pre>
@@ -656,7 +640,6 @@ directory called Coding Challenge 6. Provide me a link to your github
 written as a clickable link in your .pdf or .docx</strong></p>
 <p><a href="https://github.com/SamitKafle/codingchallenge6.git">link to
 the github</a></p>
-</div>
 
 
 
