@@ -22,7 +22,7 @@ Iterations (loops) allow us to apply the same operation across multiple elements
 
 
 **2.	2 pts. In your own words, describe how to write a function and a for loop in R and how they work. Give me specifics like syntax, where to write code, and how the results are returned.** 
-
+let's take example for calculating square of number
 ```{r}
 #Define a function to calculate the square of a number*
 #square <- function(x) {   This defines a function named square that takes one argument x
