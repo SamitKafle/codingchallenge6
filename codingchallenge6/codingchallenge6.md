@@ -22,7 +22,8 @@ redundancy, making code more efficient and less error-prone.
 
 **2. 2 pts. In your own words, describe how to write a function and a
 for loop in R and how they work. Give me specifics like syntax, where to
-write code, and how the results are returned.**
+write code, and how the results are returned.** let’s take example for
+calculating square of number
 
 ``` r
 #Define a function to calculate the square of a number*

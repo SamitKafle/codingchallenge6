@@ -3,7 +3,8 @@ title: "Codingchallenge6"
 author: "Samit Kafle"
 date: "`r Sys.Date()`"
 output:
-  pdf_document
+  md_document:
+    variant: gfm
 
 ---
 
