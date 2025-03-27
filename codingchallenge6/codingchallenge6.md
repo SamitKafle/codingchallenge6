@@ -269,7 +269,7 @@ shown below.**
 dist=data.frame(t(distances))# transforming the matrix to make it column
 distance=t(dist)#
 distances_list <- rbind(data.frame(City1 = "Auburn", City2 = datum$city, Distance_km = distance))
-distances_list
+print(distances_list)
 ```
 
     ##      City1         City2 Distance_km
